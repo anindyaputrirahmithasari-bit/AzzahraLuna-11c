@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Usaha Buku</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="images/cool.jpg" alt="Header Azzahra Luna Reads Vibes" width="1312" height="400">
+    </header>
+
+    <nav>
+        <a href="index.html">Beranda</a>
+        <a href="produk.html">Produk</a>
+        <a href="bedah-buku.html">Bedah Buku</a>
+        <a href="testimoni.html">Testimoni</a>
+        <a href="tampil-testimoni.html">Testimoni Pembeli</a>
+        <a href="kontak.html">Kontak</a>
+        <a href="event.html">Event</a>
+    </nav>
+
+    <main>
+        <h1>Azzahra Luna Reads Vibes</h1>
+
+        <section class="section-alamat">
+            <h2>Alamat Kontak</h2>
+            <p><strong>Alamat:</strong> Prince Sultan Road</p>
+            <p><strong>Kota:</strong> Madinah Munawwarah</p>
+            <p><strong>Telepon:</strong> +966 14 1234567</p>
+            <p><strong>Email:</strong> info@firstdzeko.com</p>
+        </section>
+
+        <section class="container">
+            <h2>Hubungi Kami</h2>
+
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Nama</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Pesan</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+
+                <button type="submit">Kirim Pesan</button>
+
+                <div class="success-message" id="successMessage" style="display: none;">
+                    Pesan berhasil dikirim!
+                </div>
+            </form>
+        </section>
+    </main>
+
+</body>
+</html>
